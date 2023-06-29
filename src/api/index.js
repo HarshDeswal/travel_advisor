@@ -16,7 +16,7 @@ export const getPlacesData = async (type,sw,ne) => {
             currency: 'INR',
           },
           headers: {
-            'X-RapidAPI-Key': '65c5d8d837msh57d48acb96fe2dap19ae23jsndfaa8d48d21c',
+            'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_TRAVEL_API_KEY,
             'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
           }
         });
